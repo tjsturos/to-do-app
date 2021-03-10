@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello, this is Todo App. I update automatically!"}
+    return {"message": "Hello, this is Todo App. I update automatically! Try 2."}
